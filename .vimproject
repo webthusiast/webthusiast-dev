@@ -1,0 +1,12 @@
+webthusiast-dev=$PWD {
+ README.md
+ Session.vim
+ coffee.mk
+ graphviz.mk
+ less.mk
+ m4.mk
+ package.json
+ supervisord=supervisord {
+  nginx.conf
+ }
+}

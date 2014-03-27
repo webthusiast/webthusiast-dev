@@ -9,3 +9,8 @@ In `Makefile`, after the default target, include some makefile snippets:
     include node_modules/webthusiast-dev/coffee.mk
     include node_modules/webthusiast-dev/less.mk
     include node_modules/webthusiast-dev/graphviz.mk
+
+In `supervisord.conf`, include the following:
+
+    [include]
+	files = node_modules/webthusiast-dev/supervisord/nginx.conf
