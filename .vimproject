@@ -5,6 +5,7 @@ webthusiast-dev=$PWD {
  graphviz.mk
  less.mk
  m4.mk
+ md.mk
  package.json
  supervisord=supervisord {
   nginx.conf
